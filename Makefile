@@ -1,15 +1,15 @@
 all:
-	@cp lib/marked.js marked.js
-	@uglifyjs --comments '/\*[^\0]+?Copyright[^\0]+?\*/' -o marked.min.js lib/marked.js
+	@cp lib/markedtg.js markedtg.js
+	@uglifyjs --comments '/\*[^\0]+?Copyright[^\0]+?\*/' -o markedtg.min.js lib/markedtg.js
 
 clean:
-	@rm marked.js
-	@rm marked.min.js
+	@rm markedtg.js
+	@rm markedtg.min.js
 
 bench:
 	@node test --bench
 
-man/marked.1.txt:
-	groff -man -Tascii man/marked.1 | col -b > man/marked.1.txt
+man/markedtg.1.txt:
+	groff -man -Tascii man/markedtg.1 | col -b > man/markedtg.1.txt
 
 .PHONY: clean all

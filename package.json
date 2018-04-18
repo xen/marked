@@ -1,23 +1,25 @@
 {
-  "name": "marked",
-  "description": "A markdown parser built for speed",
-  "author": "Christopher Jeffrey",
-  "version": "0.3.19",
-  "main": "./lib/marked.js",
-  "bin": "./bin/marked",
-  "man": "./man/marked.1",
-  "repository": "git://github.com/markedjs/marked.git",
-  "homepage": "https://marked.js.org",
+  "name": "markedtg",
+  "description": "A Telegram markdown parser built for speed",
+  "author": "Mikhail Kashkin",
+  "version": "0.1",
+  "main": "./lib/markedtg.js",
+  "bin": "./bin/markedtg",
+  "man": "./man/markedtg.1",
+  "repository": "git://github.com/xen/markedtg.git",
+  "homepage": "https://github.com/xen/markedtg",
   "bugs": {
-    "url": "http://github.com/markedjs/marked/issues"
+    "url": "http://github.com/xen/markedtg/issues"
   },
   "license": "MIT",
   "keywords": [
+    "telegram",
     "markdown",
     "markup",
     "html"
   ],
   "tags": [
+    "telegram",
     "markdown",
     "markup",
     "html"

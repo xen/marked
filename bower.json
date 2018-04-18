@@ -1,16 +1,18 @@
 {
-  "name": "marked",
-  "homepage": "https://github.com/markedjs/marked",
+  "name": "markedtg",
+  "homepage": "https://github.com/xen/markedtg",
   "authors": [
+    "Mikhail Kashkin <mkashkin@gmail.com>",
     "Christopher Jeffrey <chjjeffrey@gmail.com>"
   ],
-  "description": "A markdown parser built for speed",
+  "description": "A telegram markdown parser built for speed",
   "keywords": [
+    "telegram",
     "markdown",
     "markup",
     "html"
   ],
-  "main": "lib/marked.js",
+  "main": "lib/markedtg.js",
   "license": "MIT",
   "ignore": [
     "**/.*",
